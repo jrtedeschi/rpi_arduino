@@ -1,7 +1,7 @@
 """Main module."""
-import serial
+from serial import serial
 ser = serial.Serial('/dev/ttyUSB0', 9600)
 while 1: 
     if(ser.in_waiting >0):
         line = ser.readline()
-        print(line)
+        print(f"{line}")
