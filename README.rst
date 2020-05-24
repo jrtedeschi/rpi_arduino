@@ -26,7 +26,8 @@ An integration project to connect Arduino boards to Raspberry Pi, for data colle
 Features
 --------
 
-* TODO
+* Establish Connection between boards
+* Stream data to a Database Service
 
 Credits
 -------
